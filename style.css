@@ -1,0 +1,229 @@
+body {
+    background-color: #f0ece4;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-right: 50px; /* Add space between logo and text */
+ 
+}
+
+.brand-text {
+    font-size: larger;
+    font-weight: bold;
+}
+.button1 {
+    background-color: black !important;
+    color: white !important;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+
+.container-fluid {
+    background-color: #f0ece4;
+   
+}
+
+.centered-text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height to your preference */
+  
+   
+}
+
+.centered-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height to your preference */
+ 
+}
+
+
+.sun {
+    font-size: 50px;
+    font-weight: normal; 
+    position: static;
+    top: 130px;  
+}
+
+.nokia {
+margin-right: 120px;
+}
+
+.logo {
+    margin-left: 5px; /* Adjust the margin value as needed */
+}
+
+/* .container-fluid {
+    background-color: #f0ece4;
+} */
+.nokia .button1:hover {
+    background-color: orange;
+}
+
+.moon {
+ position: relative;
+ bottom: 450px;
+    font-size: 20px;
+    font-weight: normal;
+}/* Other existing styles... */
+
+.navbar {
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0; /* Stick it at the top of the viewport */
+    width: 100%; /* Make the navbar full width */
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+
+
+.centered-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height to your preference */
+    position: static;
+    right: 50px;
+    gap: 10px;
+ 
+}
+
+.centered-text3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height to your preference */
+    position: static;
+    right: 50px;
+ 
+}
+
+
+.mithu {
+    background-color: black !important;
+    color: white !important;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    bottom: 920px;
+}
+
+.ramanan {
+    background-color: #f0ece4;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 920px;
+
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+
+
+  .image-box left-image {
+    gap: 10px;
+
+  }
+
+  .image-box right-image {
+    gap: 10px;
+    
+  }
+.one {
+    border-radius: 15px;
+    gap: 10px;
+    position: relative;
+    bottom: 1120px;
+}
+
+.video-box {
+    border-radius: 15px;
+    gap: 10px;
+    position: relative;
+    bottom: 1050px;
+}
+
+.three {
+    border-radius: 15px;
+    gap: 10px;
+    position: relative;
+    bottom: 1080px;
+}
+
+.two {
+    border-radius: 15px;
+    gap: 10px;
+    position: relative;
+    bottom: 920px;
+}
+
+.jailer {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    padding: 60px;
+    position: relative;
+    bottom: 990px;
+}
+
+.image-table {
+    display: table;
+    width: 100%;
+    border-spacing: 20px; /* Add gap between images */
+    gap: 10px;
+    position: relative;
+    bottom: 1125px;
+   
+}
+
+.image-row {
+    display: table-row;
+    position: relative;
+    left: 580px;
+    top: -190px;
+    gap: 10px;
+    align-items: center;
+}
+
+.image-cell {
+    display: table-cell;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.beast {
+    font-size: 18px;
+    font-weight: 200;
+    background-color: white;
+    padding: 60px;
+    position: relative;
+    bottom: 1050px;
+}
+.comali {
+    position: relative;
+    bottom: 1250px;
+}
+
+.iphone {
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    bottom: 1150px;
+    
+}
