@@ -2,40 +2,38 @@ body {
     background-color: #f0ece4;
 }
 
+.asana {
+    font-size: 20px;
+}
+
 .navbar-brand img {
-    width: 40px;
-    height: 40px;
-    margin-right: 50px; /* Add space between logo and text */
- 
+    width: 30px;
+    height: 30px;
+    margin-right: 5px; /* Add space between logo and text */
 }
 
 .brand-text {
-    font-size: larger;
+    
     font-weight: bold;
 }
 .button1 {
     background-color: black !important;
     color: white !important;
     border: none;
-    padding: 5px 20px;
+    padding: 4px 30px;
     border-radius: 3px;
     cursor: pointer;
-   
 }
 
 .container-fluid {
-    background-color: #f0ece4;
-   
+    background-color: #f0ece4;   
 }
 
 .centered-text {
-
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh; /* Adjust the height to your preference */
-  
-   
 }
 
 .centered-text1 {
@@ -43,7 +41,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh; /* Adjust the height to your preference */
- 
 }
 
 
@@ -55,26 +52,23 @@ body {
 }
 
 .nokia {
-margin-right: 120px;
+  margin-right: 120px;
 }
 
 .logo {
-    margin-left: 5px; /* Adjust the margin value as needed */
+  margin-left: 5px; /* Adjust the margin value as needed */
 }
 
-/* .container-fluid {
-    background-color: #f0ece4;
-} */
 .nokia .button1:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .moon {
- position: relative;
- bottom: 450px;
+    position: relative;
+    bottom: 350px;
     font-size: 20px;
     font-weight: normal;
-}/* Other existing styles... */
+}
 
 .navbar {
     position: fixed; /* Make the navbar fixed at the top */
@@ -82,7 +76,6 @@ margin-right: 120px;
     width: 100%; /* Make the navbar full width */
     z-index: 1000; /* Ensure it's on top of other elements */
 }
-
 
 
 .centered-text2 {
@@ -93,7 +86,6 @@ margin-right: 120px;
     position: static;
     right: 50px;
     gap: 10px;
- 
 }
 
 .centered-text3 {
@@ -103,7 +95,6 @@ margin-right: 120px;
     height: 80vh; /* Adjust the height to your preference */
     position: static;
     right: 50px;
- 
 }
 
 
@@ -115,15 +106,14 @@ margin-right: 120px;
     border-radius: 3px;
     cursor: pointer;
     position: relative;
-    bottom: 920px;
+    bottom: 720px;
 }
 
 .ramanan {
     background-color: #f0ece4;
     padding: 10px 20px;
     position: relative;
-    bottom: 920px;
-
+    bottom: 720px;
 }
 
 .content-container {
@@ -131,38 +121,70 @@ margin-right: 120px;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-  }
+}
   
 
 
   .image-box left-image {
     gap: 10px;
+  }
 
+  .image-box left-image1 {
+    gap: 10px;
   }
 
   .image-box right-image {
     gap: 10px;
-    
   }
+
+  .image-box right-image1 {
+    gap: 10px;
+  } 
+
 .one {
     border-radius: 15px;
     gap: 10px;
     position: relative;
-    bottom: 1120px;
+    bottom: 920px;
 }
 
 .video-box {
     border-radius: 15px;
     gap: 10px;
     position: relative;
-    bottom: 1050px;
+    bottom: 850px;
 }
 
 .three {
     border-radius: 15px;
     gap: 10px;
     position: relative;
-    bottom: 1080px;
+    bottom: 920px;
+    left: 20px;
+}
+
+.three1 {
+    border-radius: 15px;
+    gap: 20px;
+    position: relative;
+    bottom: 650px;
+    left: -180px;
+}
+
+.three2 {
+    border-radius: 15px;
+    gap: 20px;
+    position: relative;
+    bottom: 920px;
+    right: -180px;
+}
+
+.three3 {
+    border-radius: 15px;
+    gap: 20px;
+    position: relative;
+    bottom: 650px;
+    right: 15px;
 }
 
 .two {
@@ -178,7 +200,7 @@ margin-right: 120px;
     background-color: white;
     padding: 60px;
     position: relative;
-    bottom: 990px;
+    bottom: 790px;
 }
 
 .image-table {
@@ -187,8 +209,7 @@ margin-right: 120px;
     border-spacing: 20px; /* Add gap between images */
     gap: 10px;
     position: relative;
-    bottom: 1125px;
-   
+    bottom: 900px;
 }
 
 .image-row {
@@ -196,7 +217,7 @@ margin-right: 120px;
     position: relative;
     left: 580px;
     top: -190px;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -213,17 +234,41 @@ margin-right: 120px;
     background-color: white;
     padding: 60px;
     position: relative;
-    bottom: 1050px;
+    bottom: 870px;
 }
 .comali {
     position: relative;
-    bottom: 1250px;
+    bottom: 1190px;
+    margin: 150px;
 }
+
+.comali1 {
+    position: relative;
+    bottom: 1350px;
+    margin: 150px;
+}
+
 
 .iphone {
     font-size: 48px;
     text-align: center;
     position: relative;
-    bottom: 1150px;
-    
+    bottom: 1250px;   
+}
+
+.pen {
+position: relative;
+left: 28px;
+}
+
+ .pencil {
+position: relative;
+bottom: 1200px;
+left: 400px;
+color: black;
+}
+
+.carousel slide {
+    position: relative;
+    top: 4800px;
 }
